@@ -1,0 +1,31 @@
+ng new bases
+cd .\02-bases\
+code .
+ng serve
+
+
+en package.json: "start": "ng serve -o"
+
+npm start
+
+
+// buildea los archivos para prod (los guarda en la carpeta /dist)
+ng build
+
+
+
+ng g c heroes/hero
+ng g c heroes/list
+
+git checkout -- .
+
+ng g c dbz/components/list
+ng g c dbz/components/add-character
+
+ng g s dbz/services/dbz
+
+npm i uuid
+npm i --save-dev @types/uuid
+
+ng build
+npm install --global http-server
