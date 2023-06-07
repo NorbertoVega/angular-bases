@@ -29,3 +29,5 @@ npm i --save-dev @types/uuid
 
 ng build
 npm install --global http-server
+npm i del-cli --save-dev
+npm i copyfiles --save-dev
